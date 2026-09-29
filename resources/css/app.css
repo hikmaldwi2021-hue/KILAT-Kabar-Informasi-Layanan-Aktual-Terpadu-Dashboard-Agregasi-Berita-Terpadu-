@@ -1,0 +1,62 @@
+@import 'tailwindcss';
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source '../**/*.blade.php';
+@source '../**/*.js';
+
+@theme {
+    --font-sans: 'Public Sans', ui-sans-serif, system-ui, sans-serif;
+    --font-display: 'Space Grotesk', ui-sans-serif, system-ui, sans-serif;
+    --font-mono: 'IBM Plex Mono', ui-monospace, 'SFMono-Regular', monospace;
+}
+
+:root {
+    --c-bg: 23 20 17;
+    --c-surface: 33 29 25;
+    --c-surface-2: 26 23 19;
+    --c-heading: 232, 220, 200;
+    --c-body: 200 192 181;
+    --c-muted: 154 143 126;
+    --c-accent: 212 168 83;
+    --c-accent-hover: 224 185 104;
+    --c-accent-contrast: 33 29 25;
+
+    /* CATEGORY COLORS — DARK */
+    --cat-1: 96 165 250;    /* Blue */
+    --cat-2: 250 204 21;    /* Yellow */
+    --cat-3: 45 212 191;    /* Teal */
+    --cat-4: 251 113 133;   /* Rose */
+    --cat-5: 167 139 250;   /* Violet */
+    --cat-6: 52 211 153;    /* Emerald */
+    --cat-7: 56 189 248;    /* Sky */
+    --cat-8: 251 146 60;    /* Orange */
+    --cat-9: 163 163 163;   /* Gray */
+    --cat-10: 244 114 182;  /* Pink */
+    --cat-11: 192 132 252;  /* Purple */
+}
+
+html.light {
+    --c-bg: 250 246 240;
+    --c-surface: 255 255 255;
+    --c-surface-2: 243 237 227;
+    --c-heading: 232, 220, 200;
+    --c-body: 74 64 56;
+    --c-muted: 122 111 98;
+    --c-accent: 212 168 83;
+    --c-accent-hover: 190 143 46;
+    --c-accent-contrast: 33 29 25;
+
+    /* CATEGORY COLORS — LIGHT */
+    --cat-1: 37 99 235;     /* Blue */
+    --cat-2: 161 98 7;      /* Yellow/Amber */
+    --cat-3: 15 118 110;    /* Teal */
+    --cat-4: 190 18 60;     /* Rose */
+    --cat-5: 109 40 217;    /* Violet */
+    --cat-6: 4 120 87;      /* Emerald */
+    --cat-7: 3 105 161;     /* Sky */
+    --cat-8: 194 65 12;     /* Orange */
+    --cat-9: 68 64 60;      /* Gray */
+    --cat-10: 157 23 77;    /* Pink */
+    --cat-11: 126 34 206;   /* Purple */
+}
